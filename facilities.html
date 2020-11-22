@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+  <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css"> 
+  <link rel="stylesheet" href="layout.css">
+
+</head>
+<!-- style -->
+<style>
+  body{
+    background-color: silver;
+  }
+  #ser-img{ border:1px solid transparent;border-radius: 500px;}
+  #ser-img:hover{ box-shadow: 2px 2px 15px black; }
+
+  h2{
+  text-align:center;
+  padding: 20px;
+}
+/* Slider */
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+    border:1px solid transparent;
+    border-radius: 500px;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+</style>
+<!-- style ----------------------------------------------------->
+<body>
+
+<!-- navgation -->
+
+
+
+<!-- carousel -->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="imgs/gif.gif" class="d-block w-100 "  alt="...">
+    </div>
+  
+    
+  </div>
+</div>
+
+<!-- end carousel -->
+
+<hr>
+<section class="section-data pt-3">
+  <!-- <img src="imgs/tran.png" class="img-fluid" width="600px" height="50px" alt=""> -->
+  <h1 class="text-center font-h2" style="font-style: italic;">Our Best Service<hr style="border-color: black;border-width: 2px; width: 18%;opacity: 0.5;"></h1>
+    <div class="container mt-5">
+      <div class="row ">
+          <div class="col-md-5 offset-md-1">
+             <img src="facilities-img/service.png " class="img-fluid " id="ser-img" style="">
+          </div> 
+
+          <div class="col-md-6">
+      <div class="row">
+          <div class="col-md-1 ">
+             <i class="fa fa-share fa-2x "></i>
+          </div>
+          <div class="col-md-11 " style="font-style: italic;letter-spacing: 1px;">
+            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quae dignissimos, quaerat assumenda minima error commodi, culpa, itaque consectetur ipsam est voluptatem dolorem. Modi ut dolor amet ipsam, quo ullam</p>
+          </div>
+      </div>
+
+        <div class="row">
+          <div class="col-md-1 ">
+             <i class="fa fa-share fa-2x "></i>
+          </div>
+          <div class="col-md-11 ">
+            <p class="text-justify" style="font-style: italic;letter-spacing: 1px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quae dignissimos, quaerat assumenda minima error commodi, culpa, itaque consectetur ipsam est voluptatem dolorem. Modi ut dolor amet ipsam, quo ullam</p>
+          </div>
+      </div>
+
+        <div class="row">
+          <div class="col-md-1 ">
+             <i class="fa fa-share fa-2x "></i>
+          </div>
+          <div class="col-md-11 ">
+            <p class="text-justify" style="font-style: italic;letter-spacing: 1px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quae dignissimos, quaerat assumenda minima error commodi, culpa, itaque consectetur ipsam est voluptatem dolorem. Modi ut dolor amet ipsam, quo ullam</p>
+          </div>
+      </div>
+
+        <div class="row">
+          <div class="col-md-1 ">
+             <i class="fa fa-share fa-2x "></i>
+          </div>
+          <div class="col-md-11 ">
+            <p class="text-justify" style="font-style: italic;letter-spacing: 1px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quae dignissimos, quaerat assumenda minima error commodi, culpa, itaque consectetur ipsam est voluptatem dolorem. Modi ut dolor amet ipsam, quo ullam</p>
+          </div>
+      </div>
+
+
+          </div>
+</div>
+
+
+</div>
+</section>
+<!-- sexttion -->
+
+
+<!-- section3 -->
+<hr>
+<div class="continer-fluid pt-3 text-center">
+  <div class="container">
+  <h1 class="text-center font-h2" style="font-style: italic;">Simply Euphorid<hr style="border-color: black;border-width: 2px; width: 20%;opacity: 0.5;"></h1>
+    
+     <div class="row">
+     <!--  <p style="letter-spacing: 1px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, vel consequuntur molestiae incidunt, qui laborum natus accusamus accusantium modi earum ullam? Tempore itaque excepturi vero repudiandae soluta doloremque illo minus? Lorem ipsum dolor sit amet, consectetur adipisicing <br>elit. Eius illum id maxime assumenda distinctio earum dolor, libero voluptatibus consequuntur <br>obcaecati a odit aperiam eligendi sapiente rerum quos hic esse ratione.br <br> lorme repudiandae soluta doloremque illo minus? Lorem ipsum </p>
+       
+       <p style="letter-spacing: 1px;" > lorme repudiandae soluta doloremque illo minus? Lorem ipsum <br>obcaecati a odit aperiam eligendi sapiente rerum quos hic esse ratione.br <br>elit. Eius illum id maxime assumenda distinctio earum dolor, libero voluptatibus consequuntur <br>llam? Tempore itaque excepturi vero repudiandae soluta doloremque illo minus? Lorem ipsum dolor sit amet, consectetur adipisicing <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, vel consequuntur molestiae incidunt, qui laborum natus accusamus accusantium modi earum </p> -->
+       <!-- <button class="btn btn-dark btn-sm offset-md-5 col-md-1 ml-7 pl-3">Read More</button> -->
+       <p style="letter-spacing: 1px;text-align: justify;">Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Dignissimos, quaerat dolorum, laborum vol uptates perf erendis mollitia excepturi optio similique dolores sed consequatur, pariatur voluptatum placeat quas. Soluta aut perferendis eius, eveniet. Lorem ipsu m dolor sit amet consec tetur adip  isicing elit. Vero doloremque est laboriosam laudantium, iure consequuntur corporis mollitia officia? Veniam atque cum id vero commodi sit rerum laborum quis nobis ut? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, optio modi consequuntur aut enim dicta ut cum porro rem pra esentium pariatur, minus! Similique earum impedit, voluptatum pariatur nesciunt, corrupti molestiae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum, accusamus. Impedit eius, placeat, architecto possimus quia nam quam illo in nre</p>
+       <p style="letter-spacing: 1px;text-align: justify;">Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, quae ratione, provident expedita suscipit libero harum dignissimos ad quod assumenda doloribus consequuntur voluptatibus possimus fugit temporibus autem nemo tempore inventore. Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Iusto consequatur, unde ipsa! Saepe incidunt, dolorem ducimus culpa consequuntur corporis cupiditate </p>
+     </div>
+  </div>
+</div>
+<hr>
+<!-- section4 -->
+<div class="container-fluid" style="" id="">
+
+ <div class="container my-3 pt-3 pb-3">
+   <!--  <h2 class="text-center my-5">Our  Partners</h2> -->
+     <section class="customer-logos slider">
+        <div class="slide"><img src="facilities-img/SOne.jpg"></div>
+        <div class="slide"><img src="facilities-img/STwo.jpg"></div>
+        <div class="slide"><img src="facilities-img/SThree.jpg"></div>
+        <div class="slide"><img src="facilities-img/SFour.jpg"></div>
+        <div class="slide"><img src="facilities-img/Sfive.jpg"></div>
+        <div class="slide"><img src="facilities-img/SSix.jpg"></div>
+        <div class="slide"><img src="facilities-img/SOne.jpg"></div>
+     </section>
+  </div>
+ </div>
+
+
+
+<!-- section4 -->
+
+ 
+
+  
+
+
+
+   <script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+  <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $('.customer-logos').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            arrows: false,
+            dots: false,
+            pauseOnHover: false,
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 4
+                }
+            }, {
+                breakpoint: 520,
+                settings: {
+                    slidesToShow: 3
+                }
+            }]
+        });
+    });
+  </script>
+</body>
+</html>
